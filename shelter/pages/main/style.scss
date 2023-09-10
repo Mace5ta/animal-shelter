@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Georgia';
+  src: url('../../assets/fonts/Georgia.woff2') format('woff2'),
+  url('../../assets/fonts/Georgia.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../../assets/fonts/ArialMT.woff2') format('woff2'),
+  url('../../assets/fonts/ArialMT.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../../assets/fonts/Arial-ItalicMT.woff2') format('woff2'),
+  url('../../assets/fonts/Arial-ItalicMT.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+
+  .hidden-overflow {
+    overflow: hidden;
+  }
+
+  body {
+    font-family: "Georgia", "Arial", sans-serif;
+  }
+
+}
