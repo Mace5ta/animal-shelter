@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico">
-  <link rel="stylesheet" type="text/css">
+  <link href="pets.css" rel="stylesheet" type="text/css">
   <title>Our pets</title>
 </head>
 <body>
@@ -16,8 +16,92 @@
         <span class="logo-title">Cozy House</span>
         <span class="logo-subtitle">Shelter for pets in Boston</span>
       </a>
+      <div class="navigation-filter"></div>
+      <nav class="nav-header">
+        <ul class="navigation">
+          <li>
+            <a class="navigation-link" href="../main/main.html">About the shelter</a>
+          </li>
+          <li class="active-link">
+            <a class="navigation-link" href="#no_scroll">Our pets</a>
+          </li>
+          <li>
+            <a class="navigation-link" href="../main/main.html#help">Help the shelter</a>
+          </li>
+          <li>
+            <a class="navigation-link" href="#footer">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </header>
+  <main>
+    <section class="our-friends">
+      <div class="our-friends-container">
+        <h1>Our friends who<br> are looking for a house</h1>
+        <div class="our-friends-block"></div>
+        <div class="pagination">
+          <button id="left-start-button" class="button-pagination">&lt;&lt;</button>
+          <button id="left-button" class="button-pagination">&lt;</button>
+          <button id="center-button" class="button-pagination primary">1</button>
+          <button id="right-button" class="button-pagination">&gt;</button>
+          <button id="right-end-button" class="button-pagination">&gt;&gt;</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-item first-footer-item">
+        <h3>For questions and suggestions</h3>
+        <div class="footer-element">
+          <img src="../../assets/icons/icon-email.svg" alt="icon-email">
+          <h4>
+            <a href="mailto:email@shelter.com">email@shelter.com</a>
+          </h4>
+        </div>
+        <div class="footer-element">
+          <img src="../../assets/icons/icon-phone.svg" alt="icon-phone">
+          <h4>
+            <a href="tel:+136745677554">+13 674 567 75 54</a>
+          </h4>
+        </div>
+      </div>
+      <div class="footer-item second-footer-item">
+        <h3>We are waiting for your visit</h3>
+        <div class="footer-element">
+          <img src="../../assets/icons/icon-marker.svg" alt="icon-marker">
+          <h4>
+            <a href="https://goo.gl/maps/59gTxt9d6TrtYZs47" target="_blank">1 Central Street, Boston
+              (entrance
+              from
+              the store)</a>
+          </h4>
+        </div>
+        <div class="footer-element">
+          <img src="../../assets/icons/icon-marker.svg" alt="icon-marker">
+          <h4>
+            <a href="https://goo.gl/maps/wgQxcUKifRNqE3Xq8" target="_blank">18 South Park, London </a>
+          </h4>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <img src="../../assets/backgrounds/footer-puppy.png" alt="footer-puppy">
+      </div>
+    </div>
+  </footer>
+  <div class="modal-window">
+    <div class="modal-wrapper">
+      <div class="modal-image"></div>
+      <div class="modal-content"></div>
+      <button class="modal-close-button">&#10006;</button>
+    </div>
+  </div>
 </div>
 </body>
 </html>
